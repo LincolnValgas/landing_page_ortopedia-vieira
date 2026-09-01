@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ortopedia Vieira | Cirúrgica e Ortopedia - Cuidado & Mobilidade</title>
+  <link rel="icon" type="image/jpeg" href="./public/images/4f7ddb5d3_WhatsAppImage2026-08-24at180502.jpeg">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['"Plus Jakarta Sans"', 'sans-serif'],
+            body: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-white font-body text-[#263238] antialiased selection:bg-[#C62828] selection:text-white">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 w-full border-b border-slate-200/70 bg-white/85 backdrop-blur-md">
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-3 sm:px-8 lg:px-10">
+      <a href="#topo" class="flex items-center gap-3 group">
+        <span class="h-14 w-14 overflow-hidden rounded-full ring-1 ring-slate-300 transition-transform duration-200 group-hover:scale-105">
+          <img src="./public/images/4f7ddb5d3_WhatsAppImage2026-08-24at180502.jpeg" alt="Logo Ortopedia Vieira" class="h-full w-full object-cover">
+        </span>
+        <span class="hidden flex-col leading-none sm:flex">
+          <span class="font-heading text-lg font-extrabold tracking-tight text-[#263238]">Ortopedia Vieira</span>
+          <span class="mt-1 font-body text-[11px] font-medium uppercase tracking-[0.18em] text-[#455A64]">Cuidado & Mobilidade</span>
+        </span>
+      </a>
+
+      <nav class="hidden items-center gap-9 md:flex">
+        <a href="#alugueis" class="font-heading text-sm font-semibold text-[#455A64] transition-colors duration-200 hover:text-[#E65100]">Aluguéis</a>
+        <a href="#topo" class="font-heading text-sm font-semibold text-[#455A64] transition-colors duration-200 hover:text-[#E65100]">Sobre Nós</a>
+        <a href="#contatos" class="font-heading text-sm font-semibold text-[#455A64] transition-colors duration-200 hover:text-[#E65100]">Contatos</a>
+        <a href="#politica" class="font-heading text-sm font-semibold text-[#455A64] transition-colors duration-200 hover:text-[#E65100]">Política de Privacidade</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://www.mercadolivre.com.br/pagina/ortopediavieiramed56" target="_blank" rel="noopener noreferrer" class="inline-flex min-h-[48px] items-center gap-2 rounded-full bg-[#FFE600] px-6 py-3 font-heading text-[13px] font-bold uppercase tracking-wide text-[#263238] shadow-sm transition-all duration-200 hover:brightness-95">
+          <i data-lucide="shopping-bag" class="h-4 w-4"></i>
+          <span>Visitar Mercado Livre</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="topo" class="relative overflow-hidden bg-[#F8F9FA]">
+    <div class="mx-auto max-w-4xl px-6 py-20 text-center sm:px-8 lg:py-28">
+      <div class="flex flex-col items-center">
+        <span class="inline-flex items-center gap-2 rounded-full bg-orange-50 px-4 py-2 font-heading text-[11px] font-bold uppercase tracking-[0.18em] text-[#E65100]">
+          Cirúrgica e Ortopedia
+        </span>
+        <h1 class="mt-6 font-heading text-4xl font-extrabold leading-[1.1] tracking-tight text-[#263238] sm:text-5xl lg:text-6xl">
+          O cuidado para quem você ama você encontra aqui!
+        </h1>
+        <p class="mt-6 max-w-2xl font-body text-lg leading-relaxed text-[#455A64]">
+          Produtos ortopédicos, locação e Home Care com atendimento humano e especializado. Escolha o item diretamente com os nossos atendentes.
+        </p>
+        <div class="mt-10 flex flex-wrap justify-center gap-x-8 gap-y-4">
+          <div class="flex items-center gap-2.5 text-[#455A64]">
+            <i data-lucide="shield-check" class="h-5 w-5 text-[#E65100]"></i>
+            <span class="font-body text-sm font-medium">Produtos certificados</span>
+          </div>
+          <div class="flex items-center gap-2.5 text-[#455A64]">
+            <i data-lucide="truck" class="h-5 w-5 text-[#E65100]"></i>
+            <span class="font-body text-sm font-medium">Entrega em toda a cidade</span>
+          </div>
+          <div class="flex items-center gap-2.5 text-[#455A64]">
+            <i data-lucide="map-pin" class="h-5 w-5 text-[#E65100]"></i>
+            <span class="font-body text-sm font-medium">Santo Amaro – São Paulo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="produtos" class="bg-white">
+    <div class="mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-10">
+      <div class="mx-auto max-w-2xl text-center">
+        <span class="font-heading text-[11px] font-bold uppercase tracking-[0.2em] text-[#E65100]">
+          Nossos Produtos & Serviços
+        </span>
+        <h2 class="mt-4 font-heading text-3xl font-extrabold tracking-tight text-[#263238] sm:text-4xl">
+          Tudo para o seu bem-estar e reabilitação
+        </h2>
+        <p class="mt-5 font-body text-lg leading-relaxed text-[#455A64]">
+          Selecione um item e converse com nossa equipe pelo WhatsApp para tirar dúvidas, verificar disponibilidade e finalizar seu pedido.
+        </p>
+      </div>
+
+      <!-- Grid of 19 Products -->
+      <div class="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/312f1470b_Andador.jpeg" alt="Andador" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Andador
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Andador ortopédico ajustável em alumínio, com pés antiderrapantes para maior estabilidade e segurança na mobilidade.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Andador." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/48f9a4f3a_Botamobilizadora.png" alt="Bota Ortopédica Imobilizadora" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Bota Ortopédica Imobilizadora
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Bota imobilizadora (Robofoot) para tornozelo e pé, com tiras ajustáveis que garantem estabilidade e conforto durante a recuperação.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Bota%20Ortop%C3%A9dica%20Imobilizadora." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/2440b30c1_Cadeiradebanho.jpeg" alt="Cadeira de Banho" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Cadeira de Banho
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Cadeira de banho com estrutura em alumínio, assento com abertura, rodas com trava e apoio de pés retrátil para higiene segura.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Cadeira%20de%20Banho." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/5e230d3b9_CamaHospitalarmotorizada.jpeg" alt="Cama Hospitalar Motorizada" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Cama Hospitalar Motorizada
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Cama hospitalar elétrica com grades laterais ajustáveis, ideal para cuidados no lar com conforto e segurança ao paciente acamado.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Cama%20Hospitalar%20Motorizada." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/945c3b2df_CamaSimples.jpeg" alt="Cama Hospitalar Simples" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Cama Hospitalar Simples
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Cama hospitalar manual com grades laterais e regulagem por manivelas, prática e resistente para cuidados domiciliares.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Cama%20Hospitalar%20Simples." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/0efe2244e_ColchoPneumtico.jpeg" alt="Colchão Pneumático Antiescaras" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Colchão Pneumático Antiescaras
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Colchão de ar alternado para prevenção de escaras em pacientes acamados, com sistema de compressão que alivia a pressão corporal.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Colch%C3%A3o%20Pneum%C3%A1tico%20Antiescaras." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/83b410486_Coletejewett.jpeg" alt="Colete Jewett" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Colete Jewett
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Órtese de hiperextensão toracolombar com estrutura metálica ajustável e apoios para tórax e lombar, indicada para estabilização da coluna.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Colete%20Jewett." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/00d508293_CorretorPostural.jpeg" alt="Corretor Postural" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Corretor Postural
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Cinta corretora postural com faixas ajustáveis que ajudam no alinhamento dos ombros e sustentação da coluna no dia a dia.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Corretor%20Postural." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/cebd45338_CuidadosparaHomeCare.jpeg" alt="Cuidados para Home Care" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Cuidados para Home Care
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Itens de apoio para cuidados domiciliares, incluindo acessórios para higiene e conforto de pacientes em home care.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Cuidados%20para%20Home%20Care." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/09fd0e018_Dietaenteral.jpeg" alt="Dieta Enteral" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Dieta Enteral
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Suplementos nutricionais para dieta enteral e oral, com opções de diferentes sabores para atender necessidades nutricionais específicas.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Dieta%20Enteral." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/3ac74caeb_FraldaseArtigos.jpeg" alt="Fraldas e Artigos de Incontinência" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Fraldas e Artigos de Incontinência
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Fraldas e artigos para incontinência com alta absorção e proteção noturna, garantindo conforto e segurança ao usuário.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Fraldas%20e%20Artigos%20de%20Incontin%C3%AAncia." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/57ade79f4_ImobilizadordeJoelho.jpeg" alt="Imobilizador de Joelho" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Imobilizador de Joelho
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Imobilizador ortopédico de joelho com tiras em velcro para fixação segura, proporcionando estabilidade e suporte à articulação.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Imobilizador%20de%20Joelho." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/83af8dbe6_Joelheira.jpeg" alt="Joelheira" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Joelheira
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Joelheira elástica com estabilizadores laterais em gel, oferecendo compressão e suporte para a articulação do joelho.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Joelheira." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/ac1d498b9_MeiasdeCompresso.jpeg" alt="Meias de Compressão" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Meias de Compressão
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Meias de compressão graduada para auxílio à circulação vascular, proporcionando conforto e bem-estar no uso diário.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Meias%20de%20Compress%C3%A3o." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/819dce9a9_Muletas.jpeg" alt="Muletas" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Muletas
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Muletas axilares ajustáveis em alumínio, com apoios ergonômicos e ponteiras antiderrapantes para segurança na locomoção.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Muletas." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/fd184e313_Orteseparapunho.jpeg" alt="Órtese para Punho" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Órtese para Punho
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Órtese de punho com tiras ajustáveis e estrutura estabilizadora, indicada para suporte e imobilização do punho e antebraço.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20%C3%93rtese%20para%20Punho." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/8a3fddf0e_palmilhaemGel.png" alt="Palmilha em Gel" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#E65100]/90">
+              Exclusivo Loja Física
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Palmilha em Gel
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Palmilha ortopédica com inserts em gel para amortecimento e suporte do arco plantar, promovendo conforto ao caminhar.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Palmilha%20em%20Gel." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/529e8fba7_generated_image.png" alt="Cadeira de Rodas" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Cadeira de Rodas
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Cadeira de rodas manual com estrutura em alumínio, assento e encosto acolchoados, apoios de pés removíveis e freios de segurança para mobilidade segura.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Cadeira%20de%20Rodas." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+        <article class="group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/70 hover:ring-slate-300">
+          <div class="relative aspect-square overflow-hidden bg-[#F2F2F2]">
+            <img src="./public/images/2fecc93d9_Tipia.jpeg" alt="Tipoia Estofada Imobilizadora" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <span class="absolute left-4 top-4 inline-flex items-center rounded-full px-3 py-1.5 font-heading text-[10px] font-bold uppercase tracking-wide text-white shadow-sm backdrop-blur-md bg-[#C62828]/90">
+              Disponível para Entrega
+            </span>
+          </div>
+          <div class="flex flex-1 flex-col p-6">
+            <h3 class="font-heading text-xl font-extrabold tracking-tight text-[#263238]">
+              Tipoia Estofada Imobilizadora
+            </h3>
+            <p class="mt-4 font-body text-[15px] leading-relaxed text-[#455A64] flex-1">
+              Tipoia estofada tipo Velpeau com alça ajustável, indicada para sustentação e imobilização do braço no pós-operatório e lesões.
+            </p>
+            <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Tipoia%20Estofada%20Imobilizadora." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-xl bg-[#C62828] px-5 py-3.5 font-heading text-[13px] font-bold uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#a91f1f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C62828]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i>
+              <span>Consultar Item</span>
+            </a>
+          </div>
+        </article>
+    
+      </div>
+
+      <!-- Rental Guide -->
+      <div id="alugueis" class="mt-20 scroll-mt-24 rounded-3xl bg-[#F8F9FA] px-6 py-12 ring-1 ring-slate-200/70 sm:px-10 lg:px-14">
+        <div class="mx-auto max-w-2xl text-center">
+          <span class="font-heading text-[11px] font-bold uppercase tracking-[0.2em] text-[#E65100]">Como alugar</span>
+          <h3 class="mt-4 font-heading text-2xl font-extrabold tracking-tight text-[#263238] sm:text-3xl">Guia rápido de aluguel passo a passo</h3>
+          <p class="mt-4 font-body text-base leading-relaxed text-[#455A64]">Alugar com a Ortopedia Vieira é simples e rápido. Siga os passos abaixo.</p>
+        </div>
+
+        <ol class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
+          <li class="relative flex flex-col items-start rounded-2xl bg-white p-6 ring-1 ring-slate-200/70">
+            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-50 text-[#E65100]">
+              <i data-lucide="clipboard-list" class="h-6 w-6"></i>
+            </span>
+            <span class="absolute right-5 top-5 font-heading text-2xl font-extrabold text-slate-200">1</span>
+            <h4 class="mt-5 font-heading text-base font-bold text-[#263238]">Escolha o equipamento</h4>
+            <p class="mt-2 font-body text-sm leading-relaxed text-[#455A64]">Selecione o item que você precisa entre nossas opções de locação.</p>
+          </li>
+          <li class="relative flex flex-col items-start rounded-2xl bg-white p-6 ring-1 ring-slate-200/70">
+            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-50 text-[#E65100]">
+              <i data-lucide="message-circle" class="h-6 w-6"></i>
+            </span>
+            <span class="absolute right-5 top-5 font-heading text-2xl font-extrabold text-slate-200">2</span>
+            <h4 class="mt-5 font-heading text-base font-bold text-[#263238]">Fale com a equipe</h4>
+            <p class="mt-2 font-body text-sm leading-relaxed text-[#455A64]">Toque no botão do WhatsApp e confirme disponibilidade e valores.</p>
+          </li>
+          <li class="relative flex flex-col items-start rounded-2xl bg-white p-6 ring-1 ring-slate-200/70">
+            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-50 text-[#E65100]">
+              <i data-lucide="calendar-check" class="h-6 w-6"></i>
+            </span>
+            <span class="absolute right-5 top-5 font-heading text-2xl font-extrabold text-slate-200">3</span>
+            <h4 class="mt-5 font-heading text-base font-bold text-[#263238]">Reserve o período</h4>
+            <p class="mt-2 font-body text-sm leading-relaxed text-[#455A64]">Definimos juntos a data de retirada ou entrega combinada.</p>
+          </li>
+          <li class="relative flex flex-col items-start rounded-2xl bg-white p-6 ring-1 ring-slate-200/70">
+            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-50 text-[#E65100]">
+              <i data-lucide="store" class="h-6 w-6"></i>
+            </span>
+            <span class="absolute right-5 top-5 font-heading text-2xl font-extrabold text-slate-200">4</span>
+            <h4 class="mt-5 font-heading text-base font-bold text-[#263238]">Retire na loja</h4>
+            <p class="mt-2 font-body text-sm leading-relaxed text-[#455A64]">Retire o equipamento em nossa loja física em Santo Amaro, pronto para uso.</p>
+          </li>
+          <li class="relative flex flex-col items-start rounded-2xl bg-white p-6 ring-1 ring-slate-200/70">
+            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-50 text-[#E65100]">
+              <i data-lucide="rotate-ccw" class="h-6 w-6"></i>
+            </span>
+            <span class="absolute right-5 top-5 font-heading text-2xl font-extrabold text-slate-200">5</span>
+            <h4 class="mt-5 font-heading text-base font-bold text-[#263238]">Devolução prática</h4>
+            <p class="mt-2 font-body text-sm leading-relaxed text-[#455A64]">Ao fim do período, devolva o equipamento na loja, sem complicação.</p>
+          </li>
+        </ol>
+
+        <div class="mt-12 flex flex-col items-center gap-4 text-center">
+          <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20loca%C3%A7%C3%A3o%20de%20equipamentos." target="_blank" rel="noopener noreferrer" class="inline-flex min-h-[48px] items-center justify-center gap-2.5 rounded-xl bg-[#25D366] px-7 py-3.5 font-heading text-sm font-bold uppercase tracking-wide text-white shadow-sm transition-all duration-200 hover:bg-[#1ebe5d]">
+            <i data-lucide="message-circle" class="h-5 w-5"></i>
+            <span>Alugar pelo WhatsApp</span>
+          </a>
+          <p class="font-body text-sm text-[#455A64]">Atendimento de segunda a sábado – (11) 2645-1053</p>
+          <p class="mt-1 inline-flex items-center gap-2 rounded-full bg-orange-50 px-4 py-2 font-body text-sm text-[#E65100]">
+            <i data-lucide="truck" class="h-4 w-4"></i>
+            <span>Prefere receber em casa? Fazemos entrega com taxa adicional.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contatos" class="w-full bg-[#C62828] text-white">
+    <div class="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10">
+      <div class="flex flex-col items-center gap-10 text-center">
+        <div class="flex max-w-2xl flex-col items-center gap-3">
+          <i data-lucide="map-pin" class="h-6 w-6 text-white/90"></i>
+          <p class="font-body text-base leading-relaxed text-white">
+            Rua General Roberto Alves Carvalho Filho, 310 – Santo Amaro, São Paulo – SP
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center gap-3">
+          <span class="font-heading text-sm font-semibold uppercase tracking-[0.16em] text-white/85">Nossas redes:</span>
+          <a href="https://www.instagram.com/ortopediavieira2/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Ortopedia Vieira" class="flex h-12 w-12 items-center justify-center rounded-full bg-white/15 text-white transition-colors duration-200 hover:bg-white/25">
+            <i data-lucide="instagram" class="h-6 w-6"></i>
+          </a>
+        </div>
+
+        <div class="flex flex-col items-center gap-2">
+          <span class="font-heading text-lg font-semibold text-white">Atendimento e WhatsApp: (11) 2645-1053</span>
+          <a href="tel:+551126451053" class="inline-flex items-center gap-2 font-body text-base text-white/90 transition-colors hover:text-white">
+            <i data-lucide="phone" class="h-4 w-4"></i>
+            <span>Ligar agora</span>
+          </a>
+        </div>
+
+        <div class="flex flex-col items-center gap-3 border-t border-white/20 pt-8 text-center sm:flex-row sm:gap-6">
+          <span class="font-body text-xs text-white/85">CNPJ: 48.399.751/0001-59</span>
+          <a href="#politica" class="inline-flex items-center gap-1.5 font-body text-xs text-white underline underline-offset-4 transition-colors hover:text-white/80">
+            <i data-lucide="file-text" class="h-3.5 w-3.5"></i>
+            <span>Política de Privacidade</span>
+          </a>
+        </div>
+
+        <p class="font-body text-xs text-white/70">© 2026 Ortopedia Vieira. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp CTA -->
+  <a href="https://wa.me/551126451053?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20Ortopedia%20Vieira." target="_blank" rel="noopener noreferrer" aria-label="Tirar dúvidas pelo WhatsApp" class="fixed bottom-8 right-8 z-50 inline-flex items-center gap-2.5 rounded-full bg-[#25D366] px-5 py-4 font-heading text-sm font-bold text-white shadow-lg shadow-emerald-600/30 transition-all duration-300 hover:bg-[#1ebe5d]">
+    <span class="relative flex h-5 w-5 items-center justify-center">
+      <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-white/40 opacity-75"></span>
+      <i data-lucide="message-circle" class="relative h-5 w-5"></i>
+    </span>
+    <span class="whitespace-nowrap">Dúvidas? Fale conosco</span>
+  </a>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
