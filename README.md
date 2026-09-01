@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# landing_page_ortopedia-vieira
-=======
 # Ortopedia Vieira - Website Oficial
 
 Site institucional e catálogo de produtos e locações da **Ortopedia Vieira** (Cuidado & Mobilidade / Cirúrgica e Ortopedia).
@@ -68,4 +65,3 @@ ortopedia-vieira/
 - **Lucide React** (Ícones modernos)
 - **Framer Motion** (Animações suaves)
 - **React Router DOM** (Navegação de páginas)
->>>>>>> 6f57e46 (primerio commit)

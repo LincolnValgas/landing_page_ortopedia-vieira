@@ -1,0 +1,24 @@
+# Dependências
+node_modules
+
+# Build output
+dist
+
+# Arquivos locais do editor
+.DS_Store
+Thumbs.db
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
